@@ -16,7 +16,7 @@ mongoose
     console.log("DATABASE CONNECTED");
   });
 
-app.use("/api/items", require("./routes/items"));
+app.use("/items", require("./routes/items"));
 
 const port = process.env.PORT;
 app.listen(port, () => {
